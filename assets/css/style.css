@@ -58,3 +58,8 @@ header{
     border-bottom: 5px solid #b28756;
     color:#ccc ;
 }
+
+.banner{
+    height: calc(100vh - 100px);
+    background-color: #333;
+}
