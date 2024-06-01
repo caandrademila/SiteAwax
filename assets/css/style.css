@@ -65,5 +65,34 @@ header{
     background-image: url('../imagens/bg.jpg');
     background-position: bottom;
     background-size: cover;
+    overflow:hidden;
+
+}
+.banner .sliders {
+    width: 100vw;
+    height: 100%;
     
+}
+.banner .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.8);
+}
+.banner .slidearea{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+
+}
+.banner h1 {
+    text-transform:uppercase ;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.banner span{
+    color: ;
 }
