@@ -62,4 +62,8 @@ header{
 .banner{
     height: calc(100vh - 100px);
     background-color: #333;
+    background-image: url('../imagens/bg.jpg');
+    background-position: bottom;
+    background-size: cover;
+    
 }
