@@ -27,6 +27,7 @@ header{
     width: 80px;
     height: 80px;
     background-color: #b28756;
+    border-radius: 40px;
 }
 .menu{
     flex: 1;
@@ -81,6 +82,7 @@ header{
 }
 .banner .slidearea{
     display: flex;
+    flex-direction: column;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -94,5 +96,41 @@ header{
 
 }
 .banner span{
-    color: ;
+    color:#b28756
+}
+.banner h2{
+    margin-top: 20px;
+    text-transform:uppercase;
+}
+.banner a{
+    display: block;
+    background-color: #b28756;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight:600;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+.banner .sliders-pointers{
+    width: 100vw;
+    height: 20px;
+    background-color: #ff0f0f;
+    position: absolute;
+}
+.banner .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.banner .pointer.active{
+    background-color: #b28756;
 }
