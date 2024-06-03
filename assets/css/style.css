@@ -118,8 +118,12 @@ header{
 .banner .sliders-pointers{
     width: 100vw;
     height: 20px;
-    background-color: #ff0f0f;
+    margin-top: -50px;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .banner .pointer {
     width: 15px;
