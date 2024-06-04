@@ -3,11 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
 body{
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-family
     font-size: 13px;
     overflow-x:hidden;
 }
+
 
 header{
     height: 100px;
@@ -204,13 +208,37 @@ CSS de áreas específicas
 
 }
 .section-aboutus--right img {
-    width: 480px;
+    width: 380px;
     box-shadow:0px 5px 10px #fff;
 }
 
 .section-aboutus--left p {
     font-size: 14px;
     line-height: 25px;
+}
+
+.section-services {
+    display: flex;
+}
+
+.section-service{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+.section-service:first-child{
+    border-left: 1px solid #333;
+}
+.section-service h4{
+    margin-top: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.section-service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
 }
 
 
