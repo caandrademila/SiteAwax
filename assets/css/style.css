@@ -378,8 +378,8 @@ CSS de áreas específicas
     padding: 20px;
 
 }
-.section-team .sliders-pointers{
-    width: 100vw;
+.section-team-area .sliders-pointers{
+   
     height: 20px;
     display: flex;
     justify-content: center;
@@ -387,7 +387,7 @@ CSS de áreas específicas
     margin-bottom: 0;
 
 }
-.section-team  .pointer {
+.section-team-area .pointer {
     width: 15px;
     height: 15px;
     border: 2px solid #b28756;
@@ -397,8 +397,9 @@ CSS de áreas específicas
     cursor: pointer;
 
 }
-.section-team .pointer.active{
+.section-team-area .pointer.active{
     background-color: #b28756;
+
 }
 
 .section-team-avatar{
@@ -438,3 +439,59 @@ CSS de áreas específicas
 .section-team-social a:hover{
     background-color: #b28756;
 }
+
+
+/** exercicios*/
+
+.section-aboutus--happy{
+    color: #000;
+
+}
+.section-service-happy{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+.section-service-happy p{
+    font-size: 14px;
+    font-weight:200;
+    color: #555;
+}
+.section-service-happy h4{
+    font-size: 18px;
+    color: #000;
+    font-weight: 800;
+}
+.section-service-happy h1{
+    color: #333;
+    font-size: 40px;
+}
+.section-service-happy h3{
+    color: #333;
+    font-weight: 600;
+}
+.section-body-happy .sliders-pointers{
+   
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+.section-body-happy .pointer {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+.section-body-happy .pointer.active{
+    background-color: #b28756;
+
+}
+
