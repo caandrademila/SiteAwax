@@ -495,3 +495,84 @@ CSS de áreas específicas
 
 }
 
+.section-service2{
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+/*
+
+.section-prices{
+    flex-direction: column;
+    display: inline-block;
+}
+
+.section-price{
+    flex: 1;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+.section-price-month{
+    color:#bebebe;
+    font-size: 12px;
+
+}
+.section-price-title p {
+    font-size: 16px;
+    text-transform: uppercase;
+    
+    align-items: center;
+    font-weight: 600;
+}
+
+.section-price-desc{
+    font-size: 12px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.button-price{
+
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight:600;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+*/
+
+
+.section-service2-desc{
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: #999;
+    
+}
+.section-service2-desc h4{
+    font-size: 14px;
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+}
+.section-service2-desc h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #000;
+    
+}
+.section-service2-desc p{
+    color: #999;
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
